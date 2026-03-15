@@ -18,7 +18,6 @@ RUN apk add --no-cache binutils
 RUN jlink \
     --verbose \
     --add-modules ALL-MODULE-PATH \
-    --compress=2 \
     --no-header-files \
     --no-man-pages \
     --strip-debug \
